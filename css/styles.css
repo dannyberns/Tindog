@@ -164,13 +164,15 @@ p {
 
 @media (max-width: 1028px) {
 
-  #title {
-    text-align: center;
+  #title .container-fluid {
+    padding: 3% 7% 7%;
   }
 
   .title-image {
-    position: static;
+    position: relative;
+    left: 25%;
     transform: rotate(0);
+    width: 50%;
   }
 
 }
